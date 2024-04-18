@@ -1,0 +1,13 @@
+.counterCard{
+    height: 102rem;
+    width: 40rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counterCard__h2{
+    font-size: 800%;
+    font-weight: 400;
+}
