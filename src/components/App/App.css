@@ -20,3 +20,14 @@ body{
   align-items: center;
   gap: 5rem;
 }
+
+@media screen and (max-width: 62.5rem){
+  body{
+    padding: 0.5rem;
+  }
+  .main{
+    flex-direction: column;
+    gap: 2rem;
+
+  }
+}

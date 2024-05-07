@@ -1,9 +1,9 @@
 import "./CounterCard.css"
-function CounterCard(){
+function CounterCard({counter}){
     return ( 
         <section className="counterCard">
             <h2 className="counterCard__h2">
-                0
+                {counter}
             </h2>
         </section>
        );

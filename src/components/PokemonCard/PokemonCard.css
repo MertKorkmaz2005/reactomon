@@ -108,3 +108,10 @@
 .pokemonCard__button--catch{
     background-color:#A5DD9B ;
 }
+
+@media screen and (max-width: 62.5rem){
+    .pokemonCard{
+      width: 100%;
+      
+    }
+  }
